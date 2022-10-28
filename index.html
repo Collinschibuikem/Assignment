@@ -1,73 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- Head section -->
+<html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>REGISTRATION FORM</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+ <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collins Portfolio</title>
+<!-- link css  -->
+<link href="style.css" rel="stylesheet" type="text/css" />
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<!-- Body section -->
+
 <body>
-  <h2>REGISTRATION FORM</h2>
-  <strong>
-    <p>Fill in the form below</p>
-  </strong>
-  <div class="card-front">
-  <form action="Registration-form">
-    <div>
-      <label for="Firstname">First Name:</label><br />
-      <input type="text" name="First Name" id="Firstname" placeholder="first name" />
+  <div class="hero">
+    <header>
+      <nav>
+        <h2 class="logo">Port<span>folio</span></h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Project</a></li>
+    </ul>
+        <a href="#" class="btn">Download CV</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+    <div class="img">
+      <img src="1990.jpg">
     </div>
-    <br />
-    <div>
-      <label for="Lastname">Last Name:</label><br />
-      <input type="text" name="Last Name" placeholder="last name" />
+    <div class="content">
+      <h2> COLLINS <br>CHIBUIKEM</h2>
+      <h3>Frontend Web Developer</h3>
+      <p>A Frontend Developer. I am a Designer. <br>I like fun projects. I like fun people. <br>I am a passionate frontend web developer<br>(HTML,CSS and JAVASCRIPT)</p>
+      <button type="button">Hire Me</button>
     </div>
-    <br />
-    <div>
-      <label for="Email">Email:</label><br />
-      <input type="email" name="Email" id="Email" placeholder="email address" required/>
+      </section>
+      <section>
+    <div class="social">
+      <ul>
+        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+      </ul>
     </div>
-    <br />
-    <div>
-      <label for="Phonenumber">Phone Number:</label><br />
-      <input type="tel" name="Phonenumber" id="phonenumber" placeholder="phone number" />
-    </div>
-    <br />
-    <div>
-      <label for="Gender">Gender</label><br />
-      <select name="Gender" id="Gender">
-        <option>Gender</option>
-        <option value="Female">Female</option>
-        <option value="Male">Male</option>
-      </select>
-    </div>
-    <br />
-    <div>
-      <label for="date">Date of Birth :</label><br />
-      <input type="date" name="bday" id="Dateofbirth" placeholder="Date of Birth" />
-    </div>
-    <br />
-    <div>
-      <label for="favcolor">Favorite Color:</label>
-      <input type="color" name="favcolor" id="favcolor" />
-    </div>
-    <br />
-    <div>
-      <label for="password">Create Password: </label>
-      <input type="password" name="password" id="password" placeholder="create password" />
-    </div>
-    <br />
-    <div>
-      <label for="password">Confirm Password:</label>
-      <input type="Cpassword" name="cpassword" id="cpassword" placeholder="confirm password" />
-    </div>
-    <br />
+        <div>
+  <img src="8718.JPG" alt="collins" style width=300px height="300px/>
+</div>
+      </section>
+    <a name="Services"></a>
+    <div class="service">
+        <div class="title">
+            <h2>Our Services</h2>
+        </div>
 
-    <button type="button" class="btn"> <a href="login.html">REGISTER </a> </button>
-  </form>
+        <div class="box">
+            <div class="card">
+                <h5>Web Development</h5>
+                <div class="para">
+                    <p>We build webpages and develop software that works swiftly
+                         across all platforms .we are one click away 
+                         to meet your demands! </p>
+
+                         <p style="text-align: center;">
+                            <a class="button" href="#">Click Here</a>
+                        </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h5>We are here for you</h5>
+                <div class="para">
+                    <p>We develop webpages and build software that works swiftly
+                         across all platforms .we are one click away 
+                         to meet your demands! </p>
+
+                         <p style="text-align: center;">
+                            <a class="button" href="#">Click Here</a>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a name="Project"></a>
+   <div class="project">
+    <h2>Project</h2>
+    <p>you can view my projects clicking on the codepen or replit buttons below. it 
+        will take you to my profile!
+    </p>
+    <a class="button1" href="https://codepen.io/your-work/" target="_blank">codepen</a>
+    <a class="button2" href="https://replit.com/@ChibuikemCollin" target="_blank">replit</a>
+    
+   </div>
+   <footer>
+    <p>Collins Chibuikem</p>
+  <p> mail:<a href="#">collinschibuikem5@gmail.com</a></p>
+   </footer>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
-
 </html>
